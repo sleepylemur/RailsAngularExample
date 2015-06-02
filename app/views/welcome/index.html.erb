@@ -1,0 +1,11 @@
+<h1>hi</h1>
+<div ng-app='mymodule'>
+  <div ng-controller='mycontroller'>
+    <p><input type="text" ng-model="user.name"></p>
+    <p>{{user.name}}</p>
+    <button ng-click="go1()">Route 1</button>
+    <button ng-click="go2()">Route 2</button>
+  </div>
+
+  <ng-view></ng-view>
+</div>
